@@ -35,10 +35,11 @@ int main ()
     cout<<"1. 3 piece chicken for $5 (a.fries: $2 b.drinks: $1)\n";
     cout<<"2. 5 piece chicken for $7 (a.fries: $2 b.drinks: $1)\n \n";
     
-    cout<<"please enter your choice :";
+    cout<<"please enter your choice : ";
     cin>>choice;
-    cout<<"would you like some sides with that? Enter a for fries and b for drinks:";
+    cout<<"Would you like some sides with that? Enter a for fries and b for drinks:";
     cin>>sides;
+    cout<<endl<<endl;
     cout<<endl<<endl;
     
     cout<<"your total is $"<<tableOne()<<endl<<endl;
